@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+npm-debug.log
+
+# Environment files
+.env
+.env.*
+!.env.production.example
+
+# Git
+.git/
+.gitignore
+
+# Testing
+test-*.js
+test-*.json
+*.test.js
+
+# Documentation (not needed in container)
+*.md
+!README.md
+
+# MCP server (not needed for webhook deployment)
+mcp-server.js
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log

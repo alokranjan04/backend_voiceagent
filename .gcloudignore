@@ -1,11 +1,21 @@
-node_modules/
-.git/
-.gitignore
-.env
-.env.*
-!.env.production.example
+# This file specifies files that are *not* uploaded to Google Cloud
+# using gcloud. It follows the same syntax as .gitignore, with the addition of
+# "#!include" directives (which insert the entries of the given .gitignore-style
+# file at that point).
 
-# Documentation
+.gcloudignore
+.git
+.gitignore
+
+# Node
+node_modules/
+
+# Environment files (credentials should be set via Cloud Run env vars)
+.env
+.env.local
+.env.*.local
+
+# Documentation (not needed in container)
 *.md
 !README.md
 

@@ -1,0 +1,28 @@
+node_modules/
+.git/
+.gitignore
+.env
+.env.*
+!.env.production.example
+
+# Documentation
+*.md
+!README.md
+
+# Test files
+test-*.js
+test-*.json
+
+# MCP server (not needed for webhook)
+mcp-server.js
+
+# Build artifacts
+calendar-gmail-webhook-deploy.zip
+deploy-temp/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
